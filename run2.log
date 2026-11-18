@@ -1,0 +1,104 @@
+Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above
+Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above
+[download] 100% of   27.79MiB in 00:00:45 at 628.49KiB/s                                                        [transcribe] Whisper on cuda/int8
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+[metadata] Gemini failed (504 DEADLINE_EXCEEDED. {'error': {'code': 504, 'message': 'Deadline expired before operation could complete.', 'status': 'DEADLINE_EXCEEDED'}}); using heuristic metadata.
+[edit] video encode: h264_nvenc (GPU)
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with clang version 22.1.8
+  configuration: --prefix=/d/bld/ffmpeg_1794632935457/_h_env/Library --cc=clang.exe --cxx=clang++.exe --nm=llvm-nm --ar=llvm-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --ld=lld-link --target-os=win64 --enable-cross-compile --toolchain=msvc --host-cc=clang.exe --extra-libs=ucrt.lib --extra-libs=vcruntime.lib --extra-libs=oldnames.lib --strip=llvm-strip --disable-stripping --host-extralibs= --disable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-libjxl --enable-libwebp --enable-ffplay --enable-vulkan --pkg-config=/d/bld/ffmpeg_1794632935457/_build_env/Library/bin/pkg-config
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'F:\Creator\Clipping tool\work\plN7JMbadRg.sec_40_82.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:42.01, start: 0.000000, bitrate: 5548 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080, 5409 kb/s, 29.97 fps, 29.97 tbr, 30k tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2026.
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 129 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (h264_nvenc))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'Whats_the_Plan_Here_Boys_Eat_Everything_in_a_Grocery_Shorts_geom.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 h264_nvenc
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2026.
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 aac
+      handler_name    : SoundHandler
+frame=   38 fps=0.0 q=17.0 size=    1280KiB time=00:00:02.28 bitrate=4593.8kbits/s speed=4.47x elapsed=0:00:00.51    frame=  165 fps=162 q=19.0 size=    5888KiB time=00:00:06.57 bitrate=7340.9kbits/s speed=6.46x elapsed=0:00:01.01    frame=  291 fps=191 q=18.0 size=    9728KiB time=00:00:10.83 bitrate=7353.5kbits/s speed=7.13x elapsed=0:00:01.52    frame=  421 fps=208 q=19.0 size=   14080KiB time=00:00:15.23 bitrate=7572.5kbits/s speed=7.52x elapsed=0:00:02.02    frame=  561 fps=222 q=19.0 size=   18688KiB time=00:00:19.75 bitrate=7749.7kbits/s dup=1 drop=0 speed=7.81x elapsed=0:00:02.53    frame=  712 fps=235 q=18.0 size=   21760KiB time=00:00:24.76 bitrate=7197.1kbits/s dup=1 drop=0 speed=8.16x elapsed=0:00:03.03    frame=  852 fps=241 q=17.0 size=   25600KiB time=00:00:29.39 bitrate=7133.8kbits/s dup=1 drop=0 speed=8.31x elapsed=0:00:03.53    frame=  980 fps=242 q=17.0 size=   30720KiB time=00:00:33.87 bitrate=7428.5kbits/s dup=1 drop=0 speed=8.38x elapsed=0:00:04.04    frame= 1102 fps=242 q=24.0 size=   36352KiB time=00:00:37.78 bitrate=7882.1kbits/s dup=1 drop=0 speed= 8.3x elapsed=0:00:04.55    frame= 1235 fps=244 q=19.0 size=   41984KiB time=00:00:41.06 bitrate=8375.0kbits/s dup=1 drop=0 speed=8.11x elapsed=0:00:05.06    [out#0/mp4 @ 00000249C5C06180] video:41935KiB audio:831KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.109060%
+frame= 1260 fps=246 q=16.0 Lsize=   42813KiB time=00:00:42.00 bitrate=8350.5kbits/s dup=1 drop=0 speed=8.21x elapsed=0:00:05.11    
+[aac @ 00000249CA0C8FC0] Qavg: 584.371
+[edit] captions: drawtext (45 cues)
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with clang version 22.1.8
+  configuration: --prefix=/d/bld/ffmpeg_1794632935457/_h_env/Library --cc=clang.exe --cxx=clang++.exe --nm=llvm-nm --ar=llvm-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --ld=lld-link --target-os=win64 --enable-cross-compile --toolchain=msvc --host-cc=clang.exe --extra-libs=ucrt.lib --extra-libs=vcruntime.lib --extra-libs=oldnames.lib --strip=llvm-strip --disable-stripping --host-extralibs= --disable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-libjxl --enable-libwebp --enable-ffplay --enable-vulkan --pkg-config=/d/bld/ffmpeg_1794632935457/_build_env/Library/bin/pkg-config
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'Whats_the_Plan_Here_Boys_Eat_Everything_in_a_Grocery_Shorts_geom.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:42.00, start: 0.000000, bitrate: 8350 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], 8179 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2026.
+      encoder         : Lavc63.1.102 h264_nvenc
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 162 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (h264_nvenc))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+Output #0, mp4, to 'Whats_the_Plan_Here_Boys_Eat_Everything_in_a_Grocery_Shorts.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 1:1 DAR 9:16], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 h264_nvenc
+      handler_name    : ISO Media file produced by Google Inc. Created on: 11/16/2026.
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 162 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+frame=   40 fps= 20 q=19.0 size=    1280KiB time=00:00:02.45 bitrate=4274.2kbits/s speed=1.22x elapsed=0:00:02.01    frame=  199 fps= 79 q=18.0 size=    6656KiB time=00:00:07.85 bitrate=6945.4kbits/s speed=3.12x elapsed=0:00:02.51    frame=  355 fps=118 q=20.0 size=   11776KiB time=00:00:13.03 bitrate=7401.0kbits/s speed=4.32x elapsed=0:00:03.02    frame=  513 fps=145 q=19.0 size=   16896KiB time=00:00:18.30 bitrate=7561.9kbits/s speed=5.19x elapsed=0:00:03.52    frame=  671 fps=166 q=18.0 size=   20736KiB time=00:00:23.57 bitrate=7206.0kbits/s speed=5.85x elapsed=0:00:04.03    frame=  831 fps=183 q=20.0 size=   24576KiB time=00:00:28.90 bitrate=6964.7kbits/s speed=6.37x elapsed=0:00:04.53    frame=  990 fps=196 q=20.0 size=   30464KiB time=00:00:34.21 bitrate=7293.1kbits/s speed=6.78x elapsed=0:00:05.05    frame= 1146 fps=206 q=22.0 size=   38144KiB time=00:00:39.40 bitrate=7930.3kbits/s speed=7.09x elapsed=0:00:05.55    [out#0/mp4 @ 000001F9DE72BC00] video:41076KiB audio:831KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.111333%
+frame= 1260 fps=213 q=16.0 Lsize=   41954KiB time=00:00:42.00 bitrate=8183.0kbits/s speed=7.09x elapsed=0:00:05.92    
+[clip] -> F:\Creator\Clipping tool\output\Whats_the_Plan_Here_Boys_Eat_Everything_in_a_Grocery_Shorts.mp4  | title: What's the Plan Here Boys? — Eat Everything in a Grocery #Shorts #MrBeast #Giveaway
+[upload] 'What's the Plan Here Boys? — Eat Everything in a Grocery #Shorts #MrBeast #Giveaway' as public…
+C:\Users\mihir\miniforge3\lib\site-packages\google\api_core\_python_version_support.py:224: FutureWarning: You are using a non-supported Python version (3.10.20). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.11, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+[upload] done -> https://youtu.be/Zk8zEACthzU  (studio: https://studio.youtube.com)

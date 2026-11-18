@@ -1,0 +1,104 @@
+Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above
+Deprecated Feature: Support for Python version 3.10 has been deprecated. Please update to Python 3.11 or above
+[transcribe] Whisper on cuda/int8
+Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.
+[title] Gemini failed (503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}); using transcript fallback.
+[edit] video encode: h264_nvenc (GPU)
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with clang version 22.1.8
+  configuration: --prefix=/d/bld/ffmpeg_1794632935457/_h_env/Library --cc=clang.exe --cxx=clang++.exe --nm=llvm-nm --ar=llvm-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --ld=lld-link --target-os=win64 --enable-cross-compile --toolchain=msvc --host-cc=clang.exe --extra-libs=ucrt.lib --extra-libs=vcruntime.lib --extra-libs=oldnames.lib --strip=llvm-strip --disable-stripping --host-extralibs= --disable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-libjxl --enable-libwebp --enable-ffplay --enable-vulkan --pkg-config=/d/bld/ffmpeg_1794632935457/_build_env/Library/bin/pkg-config
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'F:\Creator\Clipping tool\work\_c2e1NcI3Sc.sec_30_72.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:42.04, start: 0.000000, bitrate: 4829 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 4694 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, start 0.033367 (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 129 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (h264_nvenc))
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '1000_goes_to_our_subscribers_Oh_do_you_guys_Peace_team_well_geom.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 10240:10239 DAR 1920:3413], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 h264_nvenc
+      handler_name    : ISO Media file produced by Google Inc.
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 aac
+      handler_name    : SoundHandler
+frame=   44 fps=0.0 q=20.0 size=    1792KiB time=00:00:02.43 bitrate=6036.4kbits/s dup=1 drop=0 speed=4.86x elapsed=0:00:00.50    frame=  184 fps=183 q=18.0 size=    5888KiB time=00:00:07.23 bitrate=6669.6kbits/s dup=1 drop=0 speed=7.18x elapsed=0:00:01.00    frame=  298 fps=196 q=23.0 size=   11520KiB time=00:00:11.05 bitrate=8540.0kbits/s dup=1 drop=0 speed=7.26x elapsed=0:00:01.52    frame=  423 fps=209 q=22.0 size=   16384KiB time=00:00:15.12 bitrate=8873.7kbits/s dup=1 drop=0 speed=7.47x elapsed=0:00:02.02    frame=  560 fps=220 q=19.0 size=   20480KiB time=00:00:19.71 bitrate=8511.2kbits/s dup=2 drop=0 speed=7.75x elapsed=0:00:02.54    frame=  705 fps=231 q=18.0 size=   24832KiB time=00:00:24.55 bitrate=8284.5kbits/s dup=2 drop=0 speed=8.04x elapsed=0:00:03.05    frame=  842 fps=237 q=20.0 size=   29696KiB time=00:00:29.12 bitrate=8354.1kbits/s dup=2 drop=0 speed=8.19x elapsed=0:00:03.55    frame=  979 fps=241 q=19.0 size=   34304KiB time=00:00:33.70 bitrate=8337.2kbits/s dup=2 drop=0 speed= 8.3x elapsed=0:00:04.06    frame= 1106 fps=242 q=19.0 size=   39424KiB time=00:00:37.84 bitrate=8533.7kbits/s dup=2 drop=0 speed=8.29x elapsed=0:00:04.56    frame= 1253 fps=247 q=18.0 size=   43776KiB time=N/A bitrate=N/A dup=2 drop=0 speed=N/A elapsed=0:00:05.07    [out#0/mp4 @ 000001FE45D93340] video:43261KiB audio:828KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.105823%
+frame= 1261 fps=245 q=18.0 Lsize=   44136KiB time=00:00:42.00 bitrate=8608.6kbits/s dup=2 drop=0 speed=8.15x elapsed=0:00:05.15    
+[aac @ 000001FE4A2CD200] Qavg: 588.904
+[edit] captions: drawtext (34 cues)
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with clang version 22.1.8
+  configuration: --prefix=/d/bld/ffmpeg_1794632935457/_h_env/Library --cc=clang.exe --cxx=clang++.exe --nm=llvm-nm --ar=llvm-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --ld=lld-link --target-os=win64 --enable-cross-compile --toolchain=msvc --host-cc=clang.exe --extra-libs=ucrt.lib --extra-libs=vcruntime.lib --extra-libs=oldnames.lib --strip=llvm-strip --disable-stripping --host-extralibs= --disable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-libjxl --enable-libwebp --enable-ffplay --enable-vulkan --pkg-config=/d/bld/ffmpeg_1794632935457/_build_env/Library/bin/pkg-config
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '1000_goes_to_our_subscribers_Oh_do_you_guys_Peace_team_well_geom.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Duration: 00:00:42.03, start: 0.000000, bitrate: 8601 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 10240:10239 DAR 1920:3413], 8431 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc.
+      encoder         : Lavc63.1.102 h264_nvenc
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 161 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> h264 (h264_nvenc))
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+Output #0, mp4, to '1000_goes_to_our_subscribers_Oh_do_you_guys_Peace_team_well.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920 [SAR 10240:10239 DAR 1920:3413], q=2-31, 30 fps, 15360 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 h264_nvenc
+      handler_name    : ISO Media file produced by Google Inc.
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+  Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 161 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+frame=  120 fps= 59 q=18.0 size=    3840KiB time=00:00:05.12 bitrate=6144.1kbits/s speed=2.52x elapsed=0:00:02.02    frame=  272 fps=107 q=21.0 size=    9728KiB time=00:00:10.06 bitrate=7914.3kbits/s speed=3.97x elapsed=0:00:02.53    frame=  435 fps=143 q=22.0 size=   16640KiB time=00:00:15.70 bitrate=8681.8kbits/s speed=5.16x elapsed=0:00:03.04    frame=  594 fps=167 q=17.0 size=   21248KiB time=00:00:21.01 bitrate=8283.5kbits/s speed=5.92x elapsed=0:00:03.54    frame=  752 fps=186 q=16.0 size=   25600KiB time=00:00:26.28 bitrate=7979.2kbits/s speed=6.49x elapsed=0:00:04.05    frame=  906 fps=199 q=19.0 size=   30208KiB time=00:00:31.40 bitrate=7880.4kbits/s speed= 6.9x elapsed=0:00:04.55    frame= 1064 fps=210 q=20.0 size=   36864KiB time=00:00:36.67 bitrate=8234.9kbits/s speed=7.25x elapsed=0:00:05.05    frame= 1222 fps=220 q=18.0 size=   41984KiB time=00:00:40.63 bitrate=8464.3kbits/s speed= 7.3x elapsed=0:00:05.56    [out#0/mp4 @ 0000020F687BFB80] video:41982KiB audio:828KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.108983%
+frame= 1261 fps=222 q=18.0 Lsize=   42857KiB time=00:00:42.00 bitrate=8359.2kbits/s speed=7.39x elapsed=0:00:05.68    
+[clip] -> F:\Creator\Clipping tool\output\1000_goes_to_our_subscribers_Oh_do_you_guys_Peace_team_well.mp4  | title: $1,000 goes to our subscribers. Oh, do you guys? Peace team, we'll…
+[upload] '$1,000 goes to our subscribers. Oh, do you guys? Peace team, we'll…' as public…
+C:\Users\mihir\miniforge3\lib\site-packages\google\api_core\_python_version_support.py:224: FutureWarning: You are using a non-supported Python version (3.10.20). Google will not post any further updates to google.api_core supporting this Python version. Please upgrade to the latest Python version, or at least Python 3.11, and then update google.api_core.
+  warnings.warn(message, FutureWarning)
+[upload] done -> https://youtu.be/VE-d3MyBNKo  (studio: https://studio.youtube.com)
